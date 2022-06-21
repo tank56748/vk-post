@@ -1,6 +1,3 @@
 <?
 echo phpinfo();
-
-
-
 ?>

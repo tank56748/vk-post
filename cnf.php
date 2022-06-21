@@ -37,7 +37,4 @@ if(isset($_COOKIE['hash'])){
 	unset($_SESSION['login']);
 	setcookie("PHPSESSID", '', time() - 1, "/");
 }
-
-
-
 ?>
