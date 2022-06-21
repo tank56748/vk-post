@@ -17,6 +17,11 @@ $free_scans = 5;
 
 
 
+
+
+
+
+
 define('VK_KEY', 'jkhsad7e3bcsdjhgfdsu37lcds');
 
 if (!($conn = mysqli_connect(MYSQL_HOST, MYSQL_LOGIN, MYSQL_PASS, MYSQL_DB))) {
