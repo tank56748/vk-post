@@ -15,6 +15,8 @@ $price_chk = 10;
 $price_cln = 50;
 $free_scans = 5;
 
+
+
 define('VK_KEY', 'jkhsad7e3bcsdjhgfdsu37lcds');
 
 if (!($conn = mysqli_connect(MYSQL_HOST, MYSQL_LOGIN, MYSQL_PASS, MYSQL_DB))) {
@@ -37,4 +39,8 @@ if(isset($_COOKIE['hash'])){
 	unset($_SESSION['login']);
 	setcookie("PHPSESSID", '', time() - 1, "/");
 }
+
+
+
+
 ?>

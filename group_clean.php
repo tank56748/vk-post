@@ -130,4 +130,7 @@ mysqli_query($conn, 'UPDATE groups SET cln_status = 2 WHERE url = "'.$res_row['g
 	mysqli_query($conn, 'UPDATE groups SET users = '.$members_count.', dogs = dogs - '.$num.', na = na - '.$num_na.', cln_status = '.$cln_status.', cln_dogs = 0, cln_na = 0, last_clean = "'.$cln_time.'", dogs_del = '.$num.', na_del = '.$num_na.' WHERE group_id = '.$group_row['group_id'].'');
 
 mysqli_close($conn);
+
+
+
 ?>

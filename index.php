@@ -12,6 +12,12 @@ if($_GET['from']){
 
 ?>
 
+
+
+
+
+
+
 <!doctype html>
 <html class="no-js" lang="ru-RU">
 <head>
