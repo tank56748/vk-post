@@ -89,17 +89,4 @@ if(mysqli_num_rows($scan_sql) == 1){
 
 mysqli_close($conn);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ?>
